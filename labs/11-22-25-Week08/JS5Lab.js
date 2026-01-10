@@ -289,3 +289,5 @@ list.addMovie(movie2)
 
 console.log(list.displayMovies());
 //console.log(`-----------Finished------------`)
+
+class C {}console.log(typeof C);``

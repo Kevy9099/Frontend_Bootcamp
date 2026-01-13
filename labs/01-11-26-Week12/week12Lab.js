@@ -247,9 +247,9 @@ function updateUser() {
         method: 'PUT',
         contentType: 'application/json',
         data: JSON.stringify({
-            id: Number(id),                // json-server likes id preserved on PUT
             fullName: fullName,
-            researchAssignment: researchAssignment
+            researchAssignment: researchAssignment,
+            id: Number(id)
         })
     }).then(updated => {
         console.log('Updated:', updated);
